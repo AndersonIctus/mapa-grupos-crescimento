@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "pages": "ng build --output-path docs"
+    "pages": "ng build --output-path docs --base-href /mapa-grupos-crescimento/"
   },
   "private": true,
   "dependencies": {
