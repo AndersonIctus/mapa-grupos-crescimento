@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="card" *ngFor="let grupo of grupos">
+    <h2>{{ grupo.nome }}</h2>
+    <p>{{ grupo.descricao }}</p>
+    <a [href]="grupo.linkWhatsapp" target="_blank">Entrar no grupo</a>
+  </div>
+</div>
