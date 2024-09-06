@@ -9,12 +9,12 @@ import { Component, OnInit } from '@angular/core'
   styleUrl: './home.component.scss',
 })
 export class HomeComponent implements OnInit {
-  version = '0.0.9'
+  version = '0.0.10'
   grupos = [
     {
-      nome: 'Grupo 1',
-      descricao: 'Descrição do Grupo 1',
-      linkWhatsapp: 'https://chat.whatsapp.com/EXAMPLE1',
+      nome: 'Grupo Teste',
+      descricao: 'Esse é um grupo teste de GCs',
+      linkWhatsapp: 'https://chat.whatsapp.com/JyyCpKh4UlpDR9i4vp44db',
     },
     {
       nome: 'Grupo 2',
